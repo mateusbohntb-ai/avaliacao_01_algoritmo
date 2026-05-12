@@ -1,6 +1,7 @@
 # avaliacao_01_algoritmo
 
 
+
 algoritmo "Primeiro Programa"
 
 var
@@ -10,8 +11,8 @@ var
   mtr3:matriz [1..10 , 1..10 ] de caractere
   j , n : caractere
 
-  mtr4 :matriz [1..10 ,1..10] de caractere
-  acertos: matriz[1..10,1..10] de logico
+
+  
   funcionario:caractere
 
 inicio
@@ -80,22 +81,10 @@ inicio
 
 
   senao se   opcao = 2 entao
-    escreval ("Escreva o nome do funcionario que deseja pequisar ")
-
-    leia (funcionario)
-
-    se funcionario = "mateus" entao
+escreval("Pesquisar um nome ")
+    escreva ("Não a funcionarios cadastrados")
 
 
-      escreval("O cargo que ele está é pedreiro e seu nome é mateus.")
-
-
-    senao   se funcionario=("") entao
-
-      escreval(funcionario,"nao existente")
-
-    fimse
-  fimse
 
 senao se opcao = 3 entao
 
