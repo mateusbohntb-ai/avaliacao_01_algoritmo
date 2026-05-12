@@ -99,46 +99,7 @@ inicio
 
 senao se opcao = 3 entao
 
-  para j de 1 ate 10 passo 1 faca
-    para n de 1 ate 10 passo 1  faca
-      escreval("Qual é o cargo dos funcionarios  ")
-      leia (funcionario)
-      mtr2 [j,n]<-funcionario
-
-    fimpara
-    escreval (" ")
-  fimpara
-
-
-  para j de 1 ate 10 passo 1 faca
-    para n de 1 ate 10 passo 1  faca
-      escreval("Qual é a data de admição do funcionario  ")
-      leia (funcionario)
-      mtr3 [j,n]<-funcionario
-
-    fimpara
-    escreval (" ")
-  fimpara
-
-  para j de 1 ate 10 passo 1 faca
-    para n de 1 ate 10 passo 1  faca
-      escreval("Qual é salario  ")
-      leia (funcionario)
-      mtr4  [j,n]<-funcionario
-
-    fimpara
-    escreval (" ")
-  fimpara
-
-  para j de 1 ate 10 passo 1 faca
-    para n de 1 ate 10 passo 1 faca
-      escreva( mtr2[j,n],mtr[j,n],mtr3[j,n],mtr4[j,n])
-
-
-
-
-    fimpara
-  fimpara
+ Escreva("Nao a funcionarios cadastrados ")
 senao se opcao = 4 entao
   escreva("Fim do progrma ")
 
